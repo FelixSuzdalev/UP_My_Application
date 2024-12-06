@@ -1,24 +1,19 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical"
     android:background="@color/white">
 
     <ImageView
-        android:id="@+id/splashImage"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/icon"
-        android:contentDescription="Логотип приложения"/>
+        android:src="@drawable/icon" />
 
     <TextView
-        android:id="@+id/splashText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Event Planner"
-        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp"/>

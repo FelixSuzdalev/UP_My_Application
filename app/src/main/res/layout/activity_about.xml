@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="?android:windowBackground">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="О приложении"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Это простое приложение-планировщик мероприятий, созданное для демонстрации основных возможностей Android-приложений на языке Kotlin. Вы можете добавлять, сохранять и просматривать свои мероприятия."
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+</ScrollView>
+
